@@ -8,6 +8,8 @@ public class LoginSteps {
     public void userIsOnLoginPage() {
         System.out.println("User is on login page");
     }
+    {System.out.println("User manage to login");}
+
 
     @When("the user enters valid username and password")
     public void enterValidCredentials() {
